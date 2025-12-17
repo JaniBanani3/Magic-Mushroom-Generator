@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pilz Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kablammo&family=Momo+Signature&family=Momo+Trust+Display&family=Momo+Trust+Sans:wght@200..800&family=Sixtyfour&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <canvas
+      id="mushroom-canvas"
+      width="500"
+      height="500"
+      style="display: none"
+    ></canvas>
+  </head>
+  <body>
+    
+
+    <div id="particle-layer" class="particle-container"></div>
+
+    <div id="foglayer_01" class="fog">
+      <div class="image01"></div>
+      <div class="image02"></div>
+    </div>
+    <div id="foglayer_02" class="fog">
+      <div class="image01"></div>
+      <div class="image02"></div>
+    </div>
+    <div id="foglayer_03" class="fog">
+      <div class="image01"></div>
+      <div class="image02"></div>
+    </div>
+<h1 id="title">
+      <img src="Deko-Elemente/Stern.png" />CREATE A MAGIC MUSHROOM<img
+        src="Deko-Elemente/Stern.png"
+      />
+    </h1>
+    <div id="pilz">
+      <div class="pilz-teil" id="hut-container">
+        <img id="hut-img" src="Hüte/Hut0.png" alt="Hut0" />
+      </div>
+      <div class="pilz-teil" id="lamellen-container">
+        <img id="lamelle-img" src="Lamellen/Lamelle0.png" alt="Lamelle" />
+      </div>
+      <div class="pilz-teil" id="stiel-container">
+        <img id="stiel-img" src="Stiele/Stiel0.png" alt="Stiel" />
+      </div>
+ </div>
+
+<div id="buttons-container">
+    <button id="randomize-button">RANDOMIZE</button>
+    <button id="download-btn">Download🍄</button>
+</div>
+
+
+    <div class="name-slot-machine">
+      <div class="slot" id="slot-adjective">
+        <span></span>
+      </div>
+      <div class="slot" id="slot-lamelle">
+        <span></span>
+      </div>
+      <div class="slot" id="slot-stiel">
+        <span></span>
+      </div>
+    
+    <script src="main.js"></script>
+  </body>
+</html>
